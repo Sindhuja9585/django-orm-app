@@ -36,15 +36,12 @@ Create an studentadmin database with 10 fields using runserver command
 admin.py
 from django.contrib import admin
 from .models import Student,StudentAdmin
-# Register your models here.
 admin.site.register(Student,StudentAdmin)
 
 models.py
 from django.db import models
 from django.contrib import admin
 
-
-# Create your models here.
 class Student (models.Model):
     referencenumber=models.CharField(max_length=20,help_text="reference number")
     name=models.CharField(max_length=100)
