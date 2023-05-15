@@ -34,11 +34,14 @@ Create an studentadmin database with 10 fields using runserver command
 ## PROGRAM
 '''
 admin.py
+
 from django.contrib import admin
 from .models import Student,StudentAdmin
 admin.site.register(Student,StudentAdmin)
 
+
 models.py
+
 from django.db import models
 from django.contrib import admin
 
