@@ -33,6 +33,7 @@ Create an studentadmin database with 10 fields using runserver command
 
 ## PROGRAM
 '''
+
 admin.py
 
     from django.contrib import admin
